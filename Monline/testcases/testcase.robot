@@ -8,8 +8,8 @@ Test Teardown    common.Close browser
 *** Test cases ***
 Verify 10 categories are displayed
     [tags]    category
-    home_feature.Navigate to beauty hall page and back
-    home_page.Verify 10 categories are displayed
+    home_feature.Navigate to category page and back    ${home_locator.icn_beauty_hall}
+    home_page.Verify categories are displayed
     home_page.Verify URL gourmet market link
 
 Verify change gourmet page language to English
