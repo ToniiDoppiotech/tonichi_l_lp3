@@ -9,3 +9,6 @@ Open monline website
 Close browser
     Run Keyword If Test Failed    SeleniumLibrary.Capture Page Screenshot
     Close All Browsers
+
+Go back to previous page
+    Go Back

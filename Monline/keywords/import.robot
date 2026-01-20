@@ -3,7 +3,6 @@ Library     SeleniumLibrary
 Resource    common.robot
 
 Variables    ../resources/settings/setting.yaml
-# Variables    ../resources/testdata/testdata.yaml
 Variables    ../resources/language/gourmet.yaml
 
 #locators
@@ -17,4 +16,5 @@ Resource    ./pages/home_page.robot
 Resource    ./pages/gourmet_page.robot
 
 #features
+Resource    ./features/home_feature.robot
 Resource    ./features/gourmet_feature.robot
