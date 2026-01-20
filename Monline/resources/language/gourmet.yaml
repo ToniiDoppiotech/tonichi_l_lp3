@@ -1,0 +1,7 @@
+Verify_language:
+  th:
+    html_language: default
+    category_text_language: หมวดหมู่สินค้า
+  en:
+    html_language: en
+    category_text_language: Categories

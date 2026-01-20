@@ -1,0 +1,12 @@
+*** Variables ***
+${home_locator.icn_beauty_hall}    //div[@class="block-category-product uk-first-column"]/a[@href="http://mcard.to/Beauty-Hall"]
+${home_locator.icn_women_fashion}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Women"]
+${home_locator.icn_men_fashion}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Men"]
+${home_locator.icn_sports_mall}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Sports"]
+${home_locator.icn_power_mall}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Power Mall"]
+${home_locator.icn_watch_galleria}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Watch"]
+${home_locator.icn_kids}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Kids Planet"]
+${home_locator.icn_betrend}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="Betrend"]
+${home_locator.icn_the_living}    //div[@class="block-category-product uk-first-column"]/a/div/img[@alt="The Living"]
+${home_locator.icn_gourmet_market}    //div[@class="block-category-product uk-first-column"]/a[@href="https://www.gourmetmarketthailand.com/"]
+${home_locator.lbl_beauty_hall}    //span[contains(text(),'Beauty Hall')]
