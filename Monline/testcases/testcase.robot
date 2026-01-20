@@ -16,5 +16,5 @@ Verify change gourmet page language to English
     [Tags]    language
     home_page.Click gourmet market link
     gourmet_page.Verify page language    th
-    gourmet_feature.Change gourmet page language to English    en
+    gourmet_feature.Change gourmet page language    en
     gourmet_page.Verify page language    en

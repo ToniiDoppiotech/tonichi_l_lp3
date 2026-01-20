@@ -4,11 +4,11 @@ Resource    ./import.robot
 
 *** Keywords ***
 Open monline website
-    Open Browser    ${url.monline}    browser=${browser}
+    SeleniumLibrary.Open Browser    ${url.monline}    browser=${browser}
 
 Close browser
-    Run Keyword If Test Failed    SeleniumLibrary.Capture Page Screenshot
-    Close All Browsers
+    BuiltIn.Run Keyword If Test Failed    SeleniumLibrary.Capture Page Screenshot
+    SeleniumLibrary.Close All Browsers
 
 Go back to previous page
-    Go Back
+    SeleniumLibrary.Go Back

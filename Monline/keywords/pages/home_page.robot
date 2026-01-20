@@ -21,12 +21,9 @@ Verify 10 categories are displayed
     FOR    ${locator}    IN    @{category_locators}
         SeleniumLibrary.Page Should Contain Element    ${locator}
     END
-    Length Should Be    ${category_locators}    10
+    BuiltIn.Length Should Be    ${category_locators}    10
 
 Verify URL gourmet market link
     ${get_gourmet_url}=    SeleniumLibrary.Get Element Attribute    ${home_locator.icn_gourmet_market}    href
-    Log To Console   Gourmet Market URL = ${get_gourmet_url}
-    Should Be Equal As Strings    ${get_gourmet_url}    ${url.gourmet}
-
-Go back to previous page
-    Go Back
+    BuiltIn.Log To Console   Gourmet Market URL = ${get_gourmet_url}
+    BuiltIn.Should Be Equal As Strings    ${get_gourmet_url}    ${url.gourmet}
